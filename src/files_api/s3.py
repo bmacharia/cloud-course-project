@@ -7,7 +7,7 @@ try:
         ResponseMetadataTypeDef,
     )
 except ImportError:
-    print("boto3-stubs[s3] not installed. Please run `pip install boto3-stubs[s3]`")
+    print("boto3-stubs[s3] not installed. Please run `pPip install boto3-stubs[s3]`")
 
 
 BUCKET_NAME = "python-cloud-eng-course-bucket-avr"
