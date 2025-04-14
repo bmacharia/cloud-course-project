@@ -3,6 +3,8 @@
 wrap the boto3 S3 client put_object function
 
 first create an S3 client (note: the function can accept an existing client instead of instantiating a new one every time)
+set the content-type to the default of application/octet-stream
+MIME type is for the broweser to know how to handle the file and how to render the file in a correct manner, there are many MIME types
 
 
 """
